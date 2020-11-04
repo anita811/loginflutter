@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:loginflutter/screens/Academic%20Details/AcademicDetails.dart';
+import 'package:loginflutter/screens/PersonalDetailsScreen/personaldetails.dart';
 
 import '../constants.dart';
 class RoundedButton extends StatelessWidget {
@@ -66,7 +68,7 @@ class HomeScreen extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                     // return PersonalDetailsScreen();
+                     return PersonalDetailsScreen();
                     },
                   ),
                 );
@@ -83,7 +85,7 @@ class HomeScreen extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                     // return AcademicDetailsScreen();
+                     return AcademicDetailsScreen();
                     },
                   ),
                 );
