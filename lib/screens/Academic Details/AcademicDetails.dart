@@ -33,6 +33,7 @@ class _AcademicDetailsScreenState extends State<AcademicDetailsScreen> {
               [
                 Container
                 (
+                  padding: EdgeInsets.all(5.0),
                   decoration: BoxDecoration
                   (
                     color: Colors.green,
