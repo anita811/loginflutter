@@ -29,6 +29,7 @@ class _AcademicDetailsScreenState extends State<AcademicDetailsScreen> {
             margin: EdgeInsets.all(13.0),
             child: Column
             (
+              
               children: 
               [
                 Container
